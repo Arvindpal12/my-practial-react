@@ -2,6 +2,8 @@
 import Counter from "./Counter";
 import FetchAPI from "./FetchAPI";
 import FormHandling from "./FormHandling";
+import ListRendering from "./ListRendering";
+import CondistionalRendring from "./CondistionalRendring";
 import react from "react";
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
       <Counter />
       <FetchAPI />
       <FormHandling/>
+      <ListRendering/>
+      <CondistionalRendring/>
     </div>
   );
 };
